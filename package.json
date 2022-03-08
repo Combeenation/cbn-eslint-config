@@ -1,6 +1,6 @@
 {
   "name": "@combeenation/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.1-rc1",
   "description": "",
   "main": "index.js",
   "files": [
