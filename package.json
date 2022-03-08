@@ -10,7 +10,11 @@
   ],
   "prettier": "@combeenation/prettier-config",
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "pub-final": "npm publish",
+    "pub-alpha": "npm publish --tag alpha",
+    "pub-beta": "npm publish --tag beta",
+    "pub-rc": "npm publish --tag rc"
   },
   "author": "",
   "license": "Apache 2.0",
