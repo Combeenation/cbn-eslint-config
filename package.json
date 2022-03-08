@@ -1,0 +1,30 @@
+{
+  "name": "@combeenation/eslint-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
+  "prettier": "@combeenation/prettier-config",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "author": "",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "@combeenation/prettier-config": "file:combeenation-prettier-config-0.0.1.tgz",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7"
+  }
+}
