@@ -26,13 +26,13 @@
   "author": "",
   "license": "Apache 2.0",
   "dependencies": {
-    "@combeenation/prettier-config": "^0.0.1-rc1",
     "@typescript-eslint/eslint-plugin": "^5.9.1",
     "@typescript-eslint/parser": "^5.9.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0"
   },
   "devDependencies": {
+    "@combeenation/prettier-config": "^0.0.1",
     "prettier": "^2.5.1"
   },
   "peerDependencies": {
