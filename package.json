@@ -8,6 +8,13 @@
     "package.json",
     "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Combeenation/cbn-eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/Combeenation/cbn-eslint-config/issues"
+  },
   "prettier": "@combeenation/prettier-config",
   "scripts": {
     "format": "prettier --write .",
