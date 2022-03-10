@@ -1,0 +1,41 @@
+{
+  "name": "@combeenation/eslint-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Combeenation/cbn-eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/Combeenation/cbn-eslint-config/issues"
+  },
+  "prettier": "@combeenation/prettier-config",
+  "scripts": {
+    "format": "prettier --write .",
+    "pub-final": "npm publish",
+    "pub-alpha": "npm publish --tag alpha",
+    "pub-beta": "npm publish --tag beta",
+    "pub-rc": "npm publish --tag rc"
+  },
+  "author": "",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "@combeenation/prettier-config": "^0.0.1-rc1",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7"
+  }
+}
