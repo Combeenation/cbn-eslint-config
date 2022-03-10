@@ -25,12 +25,5 @@ module.exports = {
     // TS specific things
     '@typescript-eslint/ban-ts-comment': 'warn',
     '@typescript-eslint/explicit-module-boundary-types': 'warn',
-
-    // Overwrite rules which don't work for us
-
-    // We sometimes use `let` instead of `const` even when ESLint "thinks" that `const` would be possible.
-    // E.g. when initializing a variable with an array and mutating the array contents later on, this is technically
-    // still a const but we tend to use `let` in such situations as that is IMHO more "semantically correct".
-    'prefer-const': 'off',
   },
 };
