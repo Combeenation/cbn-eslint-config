@@ -22,6 +22,9 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
     'no-use-before-define': ['error', { functions: false }],
 
+    // Misc
+    'no-empty': ['warn', { allowEmptyCatch: true }],
+
     // TS specific things
     '@typescript-eslint/ban-ts-comment': 'warn',
     '@typescript-eslint/explicit-module-boundary-types': 'warn',
