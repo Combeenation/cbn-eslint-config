@@ -31,7 +31,13 @@ module.exports = {
     'no-empty': ['warn', { allowEmptyCatch: true }],
 
     // TS specific things
-    '@typescript-eslint/ban-ts-comment': 'warn',
+    '@typescript-eslint/ban-ts-comment': [
+      'warn',
+      {
+        'ts-expect-error': 'allow-with-description',
+        'ts-ignore': 'allow-with-description',
+      },
+    ],
     '@typescript-eslint/explicit-module-boundary-types': 'warn',
     '@typescript-eslint/explicit-function-return-type': 'warn',
   },
