@@ -19,12 +19,14 @@ module.exports = {
     'no-unused-vars': ['off'],
     // Use typescript version of "no-unused-vars" rule, because the default rule doesn't recognize certain typescript
     // features like enumerations
-    '@typescript-eslint/no-unused-vars': ['warn', { varsIgnorePattern: '^_', args: 'none' }],
+    '@typescript-eslint/no-unused-vars': ['warn', { args: 'none' }],
     'no-use-before-define': ['warn'],
 
-    // Prettier takes care of max length in code and eslint warns about prettier warnings due to the rule
-    // 'prettier/prettier'. Setting max-len to 120 for code here would add some linter warnings in code where prettier
-    // does not obey to the 120 char line length, so we're "supressing" it with 1000...
+    // Prettier takes care of max length in code and eslint warns about "unprettified code" due to the rule
+    // 'prettier/prettier'.
+    // Omiting the explicit setting for `code` here would make ESLint default to 80 chars max which stays in direct
+    // contrast to prettiers 120 char line length and setting it to 120 would still result in some linter warnings in
+    // code where prettier does not obey to the 120 char line length, so we're "supressing" it with 1000...
     'max-len': ['warn', { code: 1000, comments: 120 }],
 
     // Misc
