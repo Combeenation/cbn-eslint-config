@@ -27,7 +27,7 @@ module.exports = {
     // Omiting the explicit setting for `code` here would make ESLint default to 80 chars max which stays in direct
     // contrast to prettiers 120 char line length and setting it to 120 would still result in some linter warnings in
     // code where prettier does not obey to the 120 char line length, so we're "supressing" it with 1000...
-    'max-len': ['warn', { code: 1000, comments: 120 }],
+    'max-len': ['warn', { code: 1000, comments: 120, ignorePattern: '.*eslint-disable-next-line.*', ignoreUrls: true }],
 
     // Misc
     'no-empty': ['warn', { allowEmptyCatch: true }],
