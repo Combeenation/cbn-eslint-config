@@ -7,7 +7,7 @@
 - Install:
 
   ```bash
-  $ npm i --dev @combeenation/eslint-config
+  $ npm i --save-dev @combeenation/eslint-config
   ```
 
 - Create new eslint config or add to `extends` section of existing eslint config.
@@ -26,7 +26,7 @@
     }
   }
   ```
-  
+
 ## Sub dependencies
 
 The config extends `eslint:recommended` & [@typescript-eslint/eslint-recommended](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) which don't need to be installed explicitly.
