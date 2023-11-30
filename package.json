@@ -32,7 +32,7 @@
     "eslint-plugin-prettier": "^5.0.1"
   },
   "devDependencies": {
-    "@combeenation/prettier-config": "^1.0.0-rc1"
+    "@combeenation/prettier-config": "^1.0.0"
   },
   "peerDependencies": {
     "eslint": ">= 7"
