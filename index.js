@@ -20,7 +20,7 @@ module.exports = {
     // Use typescript version of "no-unused-vars" rule, because the default rule doesn't recognize certain typescript
     // features like enumerations
     '@typescript-eslint/no-unused-vars': ['warn', { args: 'none' }],
-    'no-use-before-define': ['warn'],
+    'no-use-before-define': ['off'],
 
     // Prettier takes care of max length in code and eslint warns about "unprettified code" due to the rule
     // 'prettier/prettier'.
