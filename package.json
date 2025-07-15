@@ -30,11 +30,11 @@
     "@typescript-eslint/parser": "8.36.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.5.1",
-    "typescript-eslint": "8.36.0",
-    "globals": "16.3.0"
+    "globals": "16.3.0",
+    "typescript-eslint": "8.36.0"
   },
   "devDependencies": {
-    "@combeenation/prettier-config": "^1.0.0"
+    "@combeenation/prettier-config": "^2.0.0-rc1"
   },
   "peerDependencies": {
     "eslint": ">= 9.31.0"
