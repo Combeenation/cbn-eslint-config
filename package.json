@@ -34,7 +34,7 @@
     "typescript-eslint": "8.36.0"
   },
   "devDependencies": {
-    "@combeenation/prettier-config": "^2.0.0-rc1"
+    "@combeenation/prettier-config": "^2.1.0"
   },
   "peerDependencies": {
     "eslint": ">= 9.31.0"
